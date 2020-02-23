@@ -1,0 +1,33 @@
+body {
+    background: #c8e9f3;
+}
+* {
+    margin:2px;
+    padding: 2px;
+}
+.navigation {
+    border-bottom: 1px solid #c3c3c3;
+    padding-top:10px;
+    padding-left: 20px;
+}
+
+.navigation button{
+    color: #000;
+    background-color: #c3c3c3;
+    text-align: center;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.navigation button:hover{
+    color: #000;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px 30px;
+    border:1px solid #fff;
+}
+
+.navigation button:focus{
+    outline: none;
+    box-shadow: none;
+}
